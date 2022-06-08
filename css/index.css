@@ -92,7 +92,7 @@ main form {
   margin-right: 10px;
 }
 
-#user-reminder~label {
+#user-reminder ~ label {
   display: inline-block;
   margin-top: -10px !important;
 }
@@ -237,7 +237,6 @@ span {
   font-size: 15px;
 }
 
-
 @media only screen and (max-width: 1450px) {
   main {
     position: relative;
@@ -333,7 +332,7 @@ span {
     margin-right: 10px;
   }
 
-  #user-reminder~label {
+  #user-reminder ~ label {
     display: inline-block;
     margin-top: -10px !important;
   }
@@ -466,7 +465,7 @@ span {
     grid-template-columns: 100%;
     width: 90%;
     grid-template-rows: 400px 1fr;
-    grid-template-areas: "top""bottom";
+    grid-template-areas: "top" "bottom";
   }
 
   main form {
